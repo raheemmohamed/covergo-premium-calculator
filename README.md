@@ -2,6 +2,36 @@
 
 Live URL [Click Here for Demo](https://tranquil-valkyrie-7d1374.netlify.app/)
 
+## Project Structor
+
+For this implementation i have used Angular 13 and below is the structure of project source
+
+```
+covergo-form-wizard/
+├─ src/
+│  ├─ app/
+|──────├─ core/
+|          ├─ components/
+|          ├─ error-page/
+|      ├─ layout/
+|          ├─ form-wizard-page/
+|          ├─ summery-page/
+|          ├─ welcome-page/
+|──────├─ services/
+           ├─ common.service.ts
+|──────├─ app.routing.module.ts
+│─────assets/
+        ├─ css/
+            ├─ base/
+            ├─ modules/
+            ├─ styles.scss/
+│  ├─ index.html
+├─ package.json
+├─ README.md
+├─ Solution.md
+
+```
+
 ## APP Screenshots
 
 ![Image 1](https://i.ibb.co/KGJGBgh/1.png)
