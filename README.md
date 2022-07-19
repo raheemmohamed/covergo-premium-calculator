@@ -8,9 +8,9 @@ Live URL [Click Here for Demo](https://tranquil-valkyrie-7d1374.netlify.app/)
 
 ![Image 2](https://i.ibb.co/Lh2dbhn/2.png)
 
-![Image 3](https://i.ibb.co/Lh2dbhn/3.png)
+![Image 3](https://i.ibb.co/PQwzLf5/3.png)
 
-![Image 4](https://i.ibb.co/Lh2dbhn/4.png)
+![Image 4](https://i.ibb.co/G3f859Z/4.png)
 
 ## Angular CLI
 
