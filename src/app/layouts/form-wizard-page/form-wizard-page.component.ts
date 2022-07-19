@@ -10,7 +10,6 @@ import { CommonService } from 'src/app/services/common.service';
 })
 export class FormWizardPageComponent implements OnInit {
   premiumCost: any;
-  packagePricesWithCurrenyCode: any;
   selectedCountryInfo: any;
 
   //wizard form group
