@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./base/variables";
+
+//component styles
+@import "./modules/buttons";
+
+
+// GlOBAL RESET CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-image: linear-gradient(to right bottom,
+        $color-primary-light,
+       $color-primary-dark);
+}
+
+.header {
+  &-1 {
+    font-size: 5rem;
+  }
+
+  &-2 {
+    font-size: 3rem;
+  }
+
+  &-3 {
+    font-size: 2.2rem;
+  }
+
+}
+p {
+  font-size: 1.4rem;
+}
+
+//Overide Default Elements CSS
+input,select {
+  padding: 1.2rem;
+}
+label {
+  display: block;
+  width: 100%;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+//Custom Utilities
+.margin--bottom {
+  margin-bottom: 1.6rem !important;
+}
+.fit-to-content{
+  width: fit-content;
+}
+.margin--auto{
+  margin: 0 auto;
+}
+.text--center{
+  text-align: center;
+}
+.width{
+  &-100{
+    width: 100%;
+  }
+  &-50 {
+    width: 50%;
+  }
+}
+

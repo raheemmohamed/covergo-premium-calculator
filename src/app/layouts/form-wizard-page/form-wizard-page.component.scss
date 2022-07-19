@@ -1,0 +1,28 @@
+@import "../../../assets/css/base/variables";
+
+.container{
+  background-color:$white-color;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+.content-wrapper{
+  padding: 3rem;
+}
+
+
+.radio-group-container{
+  margin-bottom: 4rem;
+}
+.radio-label{
+  display: inline;
+    margin-left: 1rem;
+}
+
+.premium-package-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}

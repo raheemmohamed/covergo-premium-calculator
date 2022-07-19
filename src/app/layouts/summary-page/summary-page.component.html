@@ -1,0 +1,26 @@
+<div class="summary-container">
+  <div class="summary-container-content-wrapper">
+    <h2 class="header-2 margin--bottom">Summary</h2>
+    <p class="margin--bottom">Name: {{ wizardFormData?.formData?.name }}</p>
+    <p class="margin--bottom">Age: {{ wizardFormData?.formData?.age }}</p>
+    <p class="margin--bottom">
+      Where do you live: {{ wizardFormData?.formData?.country }}
+    </p>
+    <p class="margin--bottom">
+      Package: {{ wizardFormData?.package?.packageName }}
+    </p>
+
+    <p class="margin--bottom">
+      Premium:
+      {{ wizardFormData?.premiumTotalCost + wizardFormData?.currencyCode }}
+    </p>
+    <div style="display: flex; flex-direction: row; justify-content: center">
+      <button class="btn btn-secondary" [routerLink]="['/form-wizard']">
+        Back
+      </button>
+      <button type="submit" class="btn btn-primary" [routerLink]="['/']">
+        Buy
+      </button>
+    </div>
+  </div>
+</div>

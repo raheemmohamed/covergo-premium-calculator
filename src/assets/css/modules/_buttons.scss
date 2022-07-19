@@ -1,0 +1,29 @@
+@import "../base/variables";
+
+.btn {
+  border: 1px solid $white-color;
+  font-size: 1.3rem;
+  width: 15rem;
+  padding: 1.2rem;
+  border-radius: 0.2rem;
+  color: $white-color;
+  cursor: pointer;
+  transition: all 0.2s;
+
+
+  &:active {
+      transform: translateY(4px);
+    }
+
+
+  &-primary {
+    background-color: $black-color;
+  }
+
+  &-secondary{
+    border: 1px solid $black-color;
+    background-color: $white-color;
+    color: $black-color;
+
+  }
+}
